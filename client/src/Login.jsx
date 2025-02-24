@@ -1,8 +1,12 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Login() {
   return (
-    <div>Login</div>
+    <>
+    <h2>Login</h2>
+    <Link to="/">home</Link>
+    </>
   )
 }
 
